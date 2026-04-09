@@ -12,7 +12,7 @@ allOf:
 
       value:
         type: string
-        description: URI or encoded image of the frame
+        description: URL or path to the frame.
         x-ngsi:
           type: Property
     required:

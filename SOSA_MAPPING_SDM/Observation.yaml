@@ -21,12 +21,6 @@ properties:
       - Observation
     x-ngsi:
       type: Property
-  observedProperty:
-    description: Relation linking an Observation to the property that was observed.
-    type: string
-    format: uri
-    x-ngsi:
-      type: Relationship
   hasResult:
     description: Relation linking an Observation and a Result.
     type: string
