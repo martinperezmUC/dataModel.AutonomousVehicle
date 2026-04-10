@@ -1,0 +1,30 @@
+openapi: 3.0.1
+info:
+  title: AutonomousVehicle SDM
+  version: "1.0.0"
+  description: Autonomous Vehicle SDM with RGB Camera and GNSS based on SOSA.
+
+paths: {}
+
+components:
+  schemas:
+    Platform:
+      $ref: "https://raw.githubusercontent.com/hugorevu/dataModel.AutonomousVehicle/refs/heads/sosa/jisbd-2026/SOSA_MAPPING_SDM/Platform.yaml"
+    Sensor:
+      $ref: "https://raw.githubusercontent.com/hugorevu/dataModel.AutonomousVehicle/refs/heads/sosa/jisbd-2026/SOSA_MAPPING_SDM/Sensor.yaml"
+    CameraRGB:
+      $ref: "https://raw.githubusercontent.com/hugorevu/dataModel.AutonomousVehicle/refs/heads/sosa/jisbd-2026/SOSA_MAPPING_SDM/CameraRGB.yaml"
+    GNSS:
+      $ref: "https://raw.githubusercontent.com/hugorevu/dataModel.AutonomousVehicle/refs/heads/sosa/jisbd-2026/SOSA_MAPPING_SDM/GNSS.yaml"
+    Observation:
+      $ref: "https://raw.githubusercontent.com/hugorevu/dataModel.AutonomousVehicle/refs/heads/sosa/jisbd-2026/SOSA_MAPPING_SDM/Observation.yaml"
+    FrameObservation:
+      $ref: "https://raw.githubusercontent.com/hugorevu/dataModel.AutonomousVehicle/refs/heads/sosa/jisbd-2026/SOSA_MAPPING_SDM/FrameObservation.yaml"
+    GNSSObservation:
+      $ref: "https://raw.githubusercontent.com/hugorevu/dataModel.AutonomousVehicle/refs/heads/sosa/jisbd-2026/SOSA_MAPPING_SDM/GNSSObservation.yaml"
+    Result:
+      $ref: "https://raw.githubusercontent.com/hugorevu/dataModel.AutonomousVehicle/refs/heads/sosa/jisbd-2026/SOSA_MAPPING_SDM/Result.yaml"
+    FrameResult:
+      $ref: "https://raw.githubusercontent.com/hugorevu/dataModel.AutonomousVehicle/refs/heads/sosa/jisbd-2026/SOSA_MAPPING_SDM/FrameResult.yaml"
+    GNSSResult:
+      $ref: "https://raw.githubusercontent.com/hugorevu/dataModel.AutonomousVehicle/refs/heads/sosa/jisbd-2026/SOSA_MAPPING_SDM/GNSSResult.yaml"
